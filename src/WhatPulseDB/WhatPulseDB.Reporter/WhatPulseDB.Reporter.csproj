@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{6DEEFFC2-4573-4386-BA2B-3AE8B4B34638}</ProjectGuid>
+    <ProjectGuid>{3615D12B-8C30-40D8-864F-FCA113291157}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>WhatPulseDB</RootNamespace>
-    <AssemblyName>WhatPulseDB</AssemblyName>
+    <RootNamespace>WhatPulseDB.Reporter</RootNamespace>
+    <AssemblyName>WhatPulseDB.Reporter</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -33,6 +33,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Commander.NET, Version=1.1.11.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Commander.NET.1.1.11\lib\net46\Commander.NET.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -48,6 +51,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

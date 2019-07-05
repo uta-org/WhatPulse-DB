@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.329
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WhatPulseDB", "WhatPulseDB\WhatPulseDB.csproj", "{6DEEFFC2-4573-4386-BA2B-3AE8B4B34638}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WhatPulseDB.Crawler", "WhatPulseDB.Crawler\WhatPulseDB.Crawler.csproj", "{6DEEFFC2-4573-4386-BA2B-3AE8B4B34638}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
